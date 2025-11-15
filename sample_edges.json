@@ -1,0 +1,23 @@
+[
+  {
+    "source": "body:nth-child=\"2\"nth-of-type=\"1\"",
+    "target": "body:nth-child=\"2\"nth-of-type=\"1\"",
+    "weight": 9
+  },
+  {
+    "source": "body:attr__style=\"\"nth-child=\"2\"nth-of-type=\"1\"",
+    "target": "body:attr__style=\"\"nth-child=\"2\"nth-of-type=\"1\"",
+    "weight": 1
+  },
+  {
+    "source": "body:attr__style=\"\"nth-child=\"2\"nth-of-type=\"1\"",
+    "target": "\"nth-child=\"2\"nth-of-type=\"1\"",
+    "weight": 1
+  },
+  {
+    "source": "body:nth-child=\"2\"nth-of-type=\"1\"",
+    "target": "body:attr__style=\"\"nth-child=\"2\"nth-of-type=\"1\"",
+    "weight": 1
+  }
+]
+

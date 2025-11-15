@@ -1,0 +1,6 @@
+{
+    "query": {
+      "kind": "HogQLQuery",
+      "query": "WITH clicks AS ( SELECT timestamp, properties.$session_id AS session_id, properties.node AS node_label, arrayElement(splitByChar(';', elements_chain), -1) AS fallback_element FROM events WHERE event = '$autocapture' AND properties.$event_type = 'click' ), labeled AS ( SELECT timestamp, session_id, coalesce(node_label, fallback_element) AS node FROM clicks ), sequenced AS ( SELECT *, lag(node) OVER ( PARTITION BY session_id ORDER BY timestamp ) AS prev_node FROM labeled ) SELECT prev_node AS source, node AS target, count() AS weight FROM sequenced WHERE prev_node IS NOT NULL GROUP BY source, target ORDER BY weight DESC LIMIT 500"
+    }
+}

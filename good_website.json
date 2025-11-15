@@ -1,0 +1,623 @@
+[
+  {
+    "source": "Homepage",
+    "target": "Products",
+    "weight": 150
+  },
+  {
+    "source": "Homepage",
+    "target": "About",
+    "weight": 80
+  },
+  {
+    "source": "Homepage",
+    "target": "Blog",
+    "weight": 120
+  },
+  {
+    "source": "Homepage",
+    "target": "Contact",
+    "weight": 60
+  },
+  {
+    "source": "Homepage",
+    "target": "Account",
+    "weight": 100
+  },
+  {
+    "source": "Products",
+    "target": "Homepage",
+    "weight": 50
+  },
+  {
+    "source": "Products",
+    "target": "Product_Laptops",
+    "weight": 90
+  },
+  {
+    "source": "Products",
+    "target": "Product_Phones",
+    "weight": 85
+  },
+  {
+    "source": "Products",
+    "target": "Product_Tablets",
+    "weight": 70
+  },
+  {
+    "source": "Products",
+    "target": "Product_Accessories",
+    "weight": 65
+  },
+  {
+    "source": "Products",
+    "target": "Cart",
+    "weight": 45
+  },
+  {
+    "source": "Product_Laptops",
+    "target": "Products",
+    "weight": 30
+  },
+  {
+    "source": "Product_Laptops",
+    "target": "Product_Detail_Laptop_Pro",
+    "weight": 60
+  },
+  {
+    "source": "Product_Laptops",
+    "target": "Product_Detail_Laptop_Air",
+    "weight": 55
+  },
+  {
+    "source": "Product_Laptops",
+    "target": "Product_Accessories",
+    "weight": 25
+  },
+  {
+    "source": "Product_Laptops",
+    "target": "Cart",
+    "weight": 20
+  },
+  {
+    "source": "Product_Phones",
+    "target": "Products",
+    "weight": 28
+  },
+  {
+    "source": "Product_Phones",
+    "target": "Product_Detail_Phone_X",
+    "weight": 70
+  },
+  {
+    "source": "Product_Phones",
+    "target": "Product_Detail_Phone_Plus",
+    "weight": 65
+  },
+  {
+    "source": "Product_Phones",
+    "target": "Product_Accessories",
+    "weight": 30
+  },
+  {
+    "source": "Product_Phones",
+    "target": "Cart",
+    "weight": 22
+  },
+  {
+    "source": "Product_Tablets",
+    "target": "Products",
+    "weight": 25
+  },
+  {
+    "source": "Product_Tablets",
+    "target": "Product_Detail_Tablet_Pro",
+    "weight": 50
+  },
+  {
+    "source": "Product_Tablets",
+    "target": "Product_Detail_Tablet_Mini",
+    "weight": 45
+  },
+  {
+    "source": "Product_Tablets",
+    "target": "Product_Accessories",
+    "weight": 20
+  },
+  {
+    "source": "Product_Tablets",
+    "target": "Cart",
+    "weight": 18
+  },
+  {
+    "source": "Product_Accessories",
+    "target": "Products",
+    "weight": 22
+  },
+  {
+    "source": "Product_Accessories",
+    "target": "Product_Detail_Cases",
+    "weight": 40
+  },
+  {
+    "source": "Product_Accessories",
+    "target": "Product_Detail_Chargers",
+    "weight": 38
+  },
+  {
+    "source": "Product_Accessories",
+    "target": "Product_Detail_Headphones",
+    "weight": 35
+  },
+  {
+    "source": "Product_Accessories",
+    "target": "Cart",
+    "weight": 15
+  },
+  {
+    "source": "Product_Detail_Laptop_Pro",
+    "target": "Product_Laptops",
+    "weight": 20
+  },
+  {
+    "source": "Product_Detail_Laptop_Pro",
+    "target": "Cart",
+    "weight": 35
+  },
+  {
+    "source": "Product_Detail_Laptop_Pro",
+    "target": "Product_Detail_Laptop_Air",
+    "weight": 15
+  },
+  {
+    "source": "Product_Detail_Laptop_Pro",
+    "target": "Product_Accessories",
+    "weight": 12
+  },
+  {
+    "source": "Product_Detail_Laptop_Pro",
+    "target": "Reviews_Laptop_Pro",
+    "weight": 25
+  },
+  {
+    "source": "Product_Detail_Laptop_Air",
+    "target": "Product_Laptops",
+    "weight": 18
+  },
+  {
+    "source": "Product_Detail_Laptop_Air",
+    "target": "Cart",
+    "weight": 30
+  },
+  {
+    "source": "Product_Detail_Laptop_Air",
+    "target": "Product_Detail_Laptop_Pro",
+    "weight": 12
+  },
+  {
+    "source": "Product_Detail_Laptop_Air",
+    "target": "Product_Accessories",
+    "weight": 10
+  },
+  {
+    "source": "Product_Detail_Laptop_Air",
+    "target": "Reviews_Laptop_Air",
+    "weight": 22
+  },
+  {
+    "source": "Product_Detail_Phone_X",
+    "target": "Product_Phones",
+    "weight": 22
+  },
+  {
+    "source": "Product_Detail_Phone_X",
+    "target": "Cart",
+    "weight": 40
+  },
+  {
+    "source": "Product_Detail_Phone_X",
+    "target": "Product_Detail_Phone_Plus",
+    "weight": 18
+  },
+  {
+    "source": "Product_Detail_Phone_X",
+    "target": "Product_Accessories",
+    "weight": 14
+  },
+  {
+    "source": "Product_Detail_Phone_X",
+    "target": "Reviews_Phone_X",
+    "weight": 28
+  },
+  {
+    "source": "Product_Detail_Phone_Plus",
+    "target": "Product_Phones",
+    "weight": 20
+  },
+  {
+    "source": "Product_Detail_Phone_Plus",
+    "target": "Cart",
+    "weight": 38
+  },
+  {
+    "source": "Product_Detail_Phone_Plus",
+    "target": "Product_Detail_Phone_X",
+    "weight": 15
+  },
+  {
+    "source": "Product_Detail_Phone_Plus",
+    "target": "Product_Accessories",
+    "weight": 13
+  },
+  {
+    "source": "Product_Detail_Phone_Plus",
+    "target": "Reviews_Phone_Plus",
+    "weight": 26
+  },
+  {
+    "source": "Product_Detail_Tablet_Pro",
+    "target": "Product_Tablets",
+    "weight": 16
+  },
+  {
+    "source": "Product_Detail_Tablet_Pro",
+    "target": "Cart",
+    "weight": 28
+  },
+  {
+    "source": "Product_Detail_Tablet_Pro",
+    "target": "Product_Detail_Tablet_Mini",
+    "weight": 12
+  },
+  {
+    "source": "Product_Detail_Tablet_Pro",
+    "target": "Product_Accessories",
+    "weight": 10
+  },
+  {
+    "source": "Product_Detail_Tablet_Pro",
+    "target": "Reviews_Tablet_Pro",
+    "weight": 20
+  },
+  {
+    "source": "Product_Detail_Tablet_Mini",
+    "target": "Product_Tablets",
+    "weight": 15
+  },
+  {
+    "source": "Product_Detail_Tablet_Mini",
+    "target": "Cart",
+    "weight": 25
+  },
+  {
+    "source": "Product_Detail_Tablet_Mini",
+    "target": "Product_Detail_Tablet_Pro",
+    "weight": 10
+  },
+  {
+    "source": "Product_Detail_Tablet_Mini",
+    "target": "Product_Accessories",
+    "weight": 9
+  },
+  {
+    "source": "Product_Detail_Tablet_Mini",
+    "target": "Reviews_Tablet_Mini",
+    "weight": 18
+  },
+  {
+    "source": "Product_Detail_Cases",
+    "target": "Product_Accessories",
+    "weight": 12
+  },
+  {
+    "source": "Product_Detail_Cases",
+    "target": "Cart",
+    "weight": 22
+  },
+  {
+    "source": "Product_Detail_Cases",
+    "target": "Product_Detail_Chargers",
+    "weight": 8
+  },
+  {
+    "source": "Product_Detail_Chargers",
+    "target": "Product_Accessories",
+    "weight": 11
+  },
+  {
+    "source": "Product_Detail_Chargers",
+    "target": "Cart",
+    "weight": 20
+  },
+  {
+    "source": "Product_Detail_Chargers",
+    "target": "Product_Detail_Cases",
+    "weight": 7
+  },
+  {
+    "source": "Product_Detail_Headphones",
+    "target": "Product_Accessories",
+    "weight": 10
+  },
+  {
+    "source": "Product_Detail_Headphones",
+    "target": "Cart",
+    "weight": 18
+  },
+  {
+    "source": "Product_Detail_Headphones",
+    "target": "Product_Detail_Cases",
+    "weight": 6
+  },
+  {
+    "source": "Cart",
+    "target": "Products",
+    "weight": 15
+  },
+  {
+    "source": "Cart",
+    "target": "Checkout",
+    "weight": 80
+  },
+  {
+    "source": "Cart",
+    "target": "Homepage",
+    "weight": 10
+  },
+  {
+    "source": "Checkout",
+    "target": "Cart",
+    "weight": 20
+  },
+  {
+    "source": "Checkout",
+    "target": "Checkout_Shipping",
+    "weight": 70
+  },
+  {
+    "source": "Checkout_Shipping",
+    "target": "Checkout",
+    "weight": 15
+  },
+  {
+    "source": "Checkout_Shipping",
+    "target": "Checkout_Payment",
+    "weight": 65
+  },
+  {
+    "source": "Checkout_Payment",
+    "target": "Checkout_Shipping",
+    "weight": 12
+  },
+  {
+    "source": "Checkout_Payment",
+    "target": "Checkout_Review",
+    "weight": 60
+  },
+  {
+    "source": "Checkout_Review",
+    "target": "Checkout_Payment",
+    "weight": 10
+  },
+  {
+    "source": "Checkout_Review",
+    "target": "Order_Confirmation",
+    "weight": 55
+  },
+  {
+    "source": "Order_Confirmation",
+    "target": "Homepage",
+    "weight": 30
+  },
+  {
+    "source": "Order_Confirmation",
+    "target": "Account",
+    "weight": 25
+  },
+  {
+    "source": "Account",
+    "target": "Homepage",
+    "weight": 35
+  },
+  {
+    "source": "Account",
+    "target": "Account_Orders",
+    "weight": 60
+  },
+  {
+    "source": "Account",
+    "target": "Account_Profile",
+    "weight": 45
+  },
+  {
+    "source": "Account",
+    "target": "Account_Settings",
+    "weight": 40
+  },
+  {
+    "source": "Account",
+    "target": "Account_Addresses",
+    "weight": 30
+  },
+  {
+    "source": "Account_Orders",
+    "target": "Account",
+    "weight": 25
+  },
+  {
+    "source": "Account_Orders",
+    "target": "Account_Profile",
+    "weight": 15
+  },
+  {
+    "source": "Account_Orders",
+    "target": "Order_Detail",
+    "weight": 35
+  },
+  {
+    "source": "Account_Profile",
+    "target": "Account",
+    "weight": 22
+  },
+  {
+    "source": "Account_Profile",
+    "target": "Account_Settings",
+    "weight": 18
+  },
+  {
+    "source": "Account_Profile",
+    "target": "Account_Orders",
+    "weight": 12
+  },
+  {
+    "source": "Account_Settings",
+    "target": "Account",
+    "weight": 20
+  },
+  {
+    "source": "Account_Settings",
+    "target": "Account_Profile",
+    "weight": 16
+  },
+  {
+    "source": "Account_Settings",
+    "target": "Account_Addresses",
+    "weight": 14
+  },
+  {
+    "source": "Account_Addresses",
+    "target": "Account",
+    "weight": 18
+  },
+  {
+    "source": "Account_Addresses",
+    "target": "Account_Settings",
+    "weight": 12
+  },
+  {
+    "source": "Order_Detail",
+    "target": "Account_Orders",
+    "weight": 20
+  },
+  {
+    "source": "Order_Detail",
+    "target": "Products",
+    "weight": 10
+  },
+  {
+    "source": "Blog",
+    "target": "Homepage",
+    "weight": 40
+  },
+  {
+    "source": "Blog",
+    "target": "Blog_Post_1",
+    "weight": 50
+  },
+  {
+    "source": "Blog",
+    "target": "Blog_Post_2",
+    "weight": 45
+  },
+  {
+    "source": "Blog",
+    "target": "Blog_Post_3",
+    "weight": 40
+  },
+  {
+    "source": "Blog_Post_1",
+    "target": "Blog",
+    "weight": 25
+  },
+  {
+    "source": "Blog_Post_1",
+    "target": "Blog_Post_2",
+    "weight": 15
+  },
+  {
+    "source": "Blog_Post_1",
+    "target": "Products",
+    "weight": 12
+  },
+  {
+    "source": "Blog_Post_2",
+    "target": "Blog",
+    "weight": 22
+  },
+  {
+    "source": "Blog_Post_2",
+    "target": "Blog_Post_1",
+    "weight": 12
+  },
+  {
+    "source": "Blog_Post_2",
+    "target": "Blog_Post_3",
+    "weight": 14
+  },
+  {
+    "source": "Blog_Post_3",
+    "target": "Blog",
+    "weight": 20
+  },
+  {
+    "source": "Blog_Post_3",
+    "target": "Blog_Post_2",
+    "weight": 10
+  },
+  {
+    "source": "About",
+    "target": "Homepage",
+    "weight": 35
+  },
+  {
+    "source": "About",
+    "target": "Contact",
+    "weight": 25
+  },
+  {
+    "source": "About",
+    "target": "Products",
+    "weight": 20
+  },
+  {
+    "source": "Contact",
+    "target": "Homepage",
+    "weight": 30
+  },
+  {
+    "source": "Contact",
+    "target": "About",
+    "weight": 15
+  },
+  {
+    "source": "Reviews_Laptop_Pro",
+    "target": "Product_Detail_Laptop_Pro",
+    "weight": 20
+  },
+  {
+    "source": "Reviews_Laptop_Air",
+    "target": "Product_Detail_Laptop_Air",
+    "weight": 18
+  },
+  {
+    "source": "Reviews_Phone_X",
+    "target": "Product_Detail_Phone_X",
+    "weight": 22
+  },
+  {
+    "source": "Reviews_Phone_Plus",
+    "target": "Product_Detail_Phone_Plus",
+    "weight": 20
+  },
+  {
+    "source": "Reviews_Tablet_Pro",
+    "target": "Product_Detail_Tablet_Pro",
+    "weight": 16
+  },
+  {
+    "source": "Reviews_Tablet_Mini",
+    "target": "Product_Detail_Tablet_Mini",
+    "weight": 15
+  }
+]
+

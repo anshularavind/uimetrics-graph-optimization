@@ -1,0 +1,488 @@
+[
+  {
+    "source": "Homepage",
+    "target": "Menu_Level1",
+    "weight": 200
+  },
+  {
+    "source": "Menu_Level1",
+    "target": "Homepage",
+    "weight": 80
+  },
+  {
+    "source": "Menu_Level1",
+    "target": "Menu_Level2_A",
+    "weight": 120
+  },
+  {
+    "source": "Menu_Level1",
+    "target": "Menu_Level2_B",
+    "weight": 80
+  },
+  {
+    "source": "Menu_Level2_A",
+    "target": "Menu_Level1",
+    "weight": 60
+  },
+  {
+    "source": "Menu_Level2_A",
+    "target": "Menu_Level3_A1",
+    "weight": 70
+  },
+  {
+    "source": "Menu_Level2_A",
+    "target": "Menu_Level3_A2",
+    "weight": 50
+  },
+  {
+    "source": "Menu_Level2_B",
+    "target": "Menu_Level1",
+    "weight": 40
+  },
+  {
+    "source": "Menu_Level2_B",
+    "target": "Menu_Level3_B1",
+    "weight": 45
+  },
+  {
+    "source": "Menu_Level2_B",
+    "target": "Menu_Level3_B2",
+    "weight": 35
+  },
+  {
+    "source": "Menu_Level3_A1",
+    "target": "Menu_Level2_A",
+    "weight": 35
+  },
+  {
+    "source": "Menu_Level3_A1",
+    "target": "Menu_Level4_A1a",
+    "weight": 40
+  },
+  {
+    "source": "Menu_Level3_A1",
+    "target": "Menu_Level4_A1b",
+    "weight": 30
+  },
+  {
+    "source": "Menu_Level3_A2",
+    "target": "Menu_Level2_A",
+    "weight": 25
+  },
+  {
+    "source": "Menu_Level3_A2",
+    "target": "Menu_Level4_A2a",
+    "weight": 28
+  },
+  {
+    "source": "Menu_Level3_A2",
+    "target": "Menu_Level4_A2b",
+    "weight": 22
+  },
+  {
+    "source": "Menu_Level3_B1",
+    "target": "Menu_Level2_B",
+    "weight": 22
+  },
+  {
+    "source": "Menu_Level3_B1",
+    "target": "Menu_Level4_B1a",
+    "weight": 25
+  },
+  {
+    "source": "Menu_Level3_B1",
+    "target": "Menu_Level4_B1b",
+    "weight": 20
+  },
+  {
+    "source": "Menu_Level3_B2",
+    "target": "Menu_Level2_B",
+    "weight": 18
+  },
+  {
+    "source": "Menu_Level3_B2",
+    "target": "Menu_Level4_B2a",
+    "weight": 20
+  },
+  {
+    "source": "Menu_Level3_B2",
+    "target": "Menu_Level4_B2b",
+    "weight": 15
+  },
+  {
+    "source": "Menu_Level4_A1a",
+    "target": "Menu_Level3_A1",
+    "weight": 20
+  },
+  {
+    "source": "Menu_Level4_A1a",
+    "target": "Product_Page_1",
+    "weight": 25
+  },
+  {
+    "source": "Menu_Level4_A1b",
+    "target": "Menu_Level3_A1",
+    "weight": 15
+  },
+  {
+    "source": "Menu_Level4_A1b",
+    "target": "Product_Page_2",
+    "weight": 18
+  },
+  {
+    "source": "Menu_Level4_A2a",
+    "target": "Menu_Level3_A2",
+    "weight": 14
+  },
+  {
+    "source": "Menu_Level4_A2a",
+    "target": "Product_Page_3",
+    "weight": 16
+  },
+  {
+    "source": "Menu_Level4_A2b",
+    "target": "Menu_Level3_A2",
+    "weight": 12
+  },
+  {
+    "source": "Menu_Level4_A2b",
+    "target": "Product_Page_4",
+    "weight": 14
+  },
+  {
+    "source": "Menu_Level4_B1a",
+    "target": "Menu_Level3_B1",
+    "weight": 12
+  },
+  {
+    "source": "Menu_Level4_B1a",
+    "target": "Product_Page_5",
+    "weight": 14
+  },
+  {
+    "source": "Menu_Level4_B1b",
+    "target": "Menu_Level3_B1",
+    "weight": 10
+  },
+  {
+    "source": "Menu_Level4_B1b",
+    "target": "Product_Page_6",
+    "weight": 12
+  },
+  {
+    "source": "Menu_Level4_B2a",
+    "target": "Menu_Level3_B2",
+    "weight": 10
+  },
+  {
+    "source": "Menu_Level4_B2a",
+    "target": "Product_Page_7",
+    "weight": 12
+  },
+  {
+    "source": "Menu_Level4_B2b",
+    "target": "Menu_Level3_B2",
+    "weight": 8
+  },
+  {
+    "source": "Menu_Level4_B2b",
+    "target": "Product_Page_8",
+    "weight": 10
+  },
+  {
+    "source": "Product_Page_1",
+    "target": "Menu_Level4_A1a",
+    "weight": 12
+  },
+  {
+    "source": "Product_Page_1",
+    "target": "Product_Detail_1",
+    "weight": 15
+  },
+  {
+    "source": "Product_Page_2",
+    "target": "Menu_Level4_A1b",
+    "weight": 10
+  },
+  {
+    "source": "Product_Page_2",
+    "target": "Product_Detail_2",
+    "weight": 12
+  },
+  {
+    "source": "Product_Page_3",
+    "target": "Menu_Level4_A2a",
+    "weight": 9
+  },
+  {
+    "source": "Product_Page_3",
+    "target": "Product_Detail_3",
+    "weight": 11
+  },
+  {
+    "source": "Product_Page_4",
+    "target": "Menu_Level4_A2b",
+    "weight": 8
+  },
+  {
+    "source": "Product_Page_4",
+    "target": "Product_Detail_4",
+    "weight": 10
+  },
+  {
+    "source": "Product_Page_5",
+    "target": "Menu_Level4_B1a",
+    "weight": 8
+  },
+  {
+    "source": "Product_Page_5",
+    "target": "Product_Detail_5",
+    "weight": 10
+  },
+  {
+    "source": "Product_Page_6",
+    "target": "Menu_Level4_B1b",
+    "weight": 7
+  },
+  {
+    "source": "Product_Page_6",
+    "target": "Product_Detail_6",
+    "weight": 9
+  },
+  {
+    "source": "Product_Page_7",
+    "target": "Menu_Level4_B2a",
+    "weight": 7
+  },
+  {
+    "source": "Product_Page_7",
+    "target": "Product_Detail_7",
+    "weight": 9
+  },
+  {
+    "source": "Product_Page_8",
+    "target": "Menu_Level4_B2b",
+    "weight": 6
+  },
+  {
+    "source": "Product_Page_8",
+    "target": "Product_Detail_8",
+    "weight": 8
+  },
+  {
+    "source": "Product_Detail_1",
+    "target": "Product_Page_1",
+    "weight": 8
+  },
+  {
+    "source": "Product_Detail_1",
+    "target": "Hidden_Cart",
+    "weight": 10
+  },
+  {
+    "source": "Product_Detail_2",
+    "target": "Product_Page_2",
+    "weight": 7
+  },
+  {
+    "source": "Product_Detail_2",
+    "target": "Hidden_Cart",
+    "weight": 8
+  },
+  {
+    "source": "Product_Detail_3",
+    "target": "Product_Page_3",
+    "weight": 6
+  },
+  {
+    "source": "Product_Detail_3",
+    "target": "Hidden_Cart",
+    "weight": 7
+  },
+  {
+    "source": "Product_Detail_4",
+    "target": "Product_Page_4",
+    "weight": 6
+  },
+  {
+    "source": "Product_Detail_4",
+    "target": "Hidden_Cart",
+    "weight": 7
+  },
+  {
+    "source": "Product_Detail_5",
+    "target": "Product_Page_5",
+    "weight": 6
+  },
+  {
+    "source": "Product_Detail_5",
+    "target": "Hidden_Cart",
+    "weight": 7
+  },
+  {
+    "source": "Product_Detail_6",
+    "target": "Product_Page_6",
+    "weight": 5
+  },
+  {
+    "source": "Product_Detail_6",
+    "target": "Hidden_Cart",
+    "weight": 6
+  },
+  {
+    "source": "Product_Detail_7",
+    "target": "Product_Page_7",
+    "weight": 5
+  },
+  {
+    "source": "Product_Detail_7",
+    "target": "Hidden_Cart",
+    "weight": 6
+  },
+  {
+    "source": "Product_Detail_8",
+    "target": "Product_Page_8",
+    "weight": 5
+  },
+  {
+    "source": "Product_Detail_8",
+    "target": "Hidden_Cart",
+    "weight": 6
+  },
+  {
+    "source": "Hidden_Cart",
+    "target": "Obscure_Checkout_Step1",
+    "weight": 40
+  },
+  {
+    "source": "Obscure_Checkout_Step1",
+    "target": "Hidden_Cart",
+    "weight": 15
+  },
+  {
+    "source": "Obscure_Checkout_Step1",
+    "target": "Obscure_Checkout_Step2",
+    "weight": 25
+  },
+  {
+    "source": "Obscure_Checkout_Step2",
+    "target": "Obscure_Checkout_Step1",
+    "weight": 10
+  },
+  {
+    "source": "Obscure_Checkout_Step2",
+    "target": "Obscure_Checkout_Step3",
+    "weight": 15
+  },
+  {
+    "source": "Obscure_Checkout_Step3",
+    "target": "Obscure_Checkout_Step2",
+    "weight": 8
+  },
+  {
+    "source": "Obscure_Checkout_Step3",
+    "target": "Obscure_Checkout_Step4",
+    "weight": 7
+  },
+  {
+    "source": "Obscure_Checkout_Step4",
+    "target": "Obscure_Checkout_Step3",
+    "weight": 5
+  },
+  {
+    "source": "Obscure_Checkout_Step4",
+    "target": "Confirmation_Page",
+    "weight": 2
+  },
+  {
+    "source": "Confirmation_Page",
+    "target": "Homepage",
+    "weight": 2
+  },
+  {
+    "source": "Homepage",
+    "target": "Buried_Account_Link",
+    "weight": 15
+  },
+  {
+    "source": "Buried_Account_Link",
+    "target": "Menu_Level1",
+    "weight": 8
+  },
+  {
+    "source": "Buried_Account_Link",
+    "target": "Account_Login",
+    "weight": 10
+  },
+  {
+    "source": "Account_Login",
+    "target": "Buried_Account_Link",
+    "weight": 5
+  },
+  {
+    "source": "Account_Login",
+    "target": "Account_Dashboard",
+    "weight": 8
+  },
+  {
+    "source": "Account_Dashboard",
+    "target": "Account_Login",
+    "weight": 4
+  },
+  {
+    "source": "Account_Dashboard",
+    "target": "Account_Orders_Buried",
+    "weight": 6
+  },
+  {
+    "source": "Account_Orders_Buried",
+    "target": "Account_Dashboard",
+    "weight": 4
+  },
+  {
+    "source": "Homepage",
+    "target": "Footer_Link_Obscure",
+    "weight": 5
+  },
+  {
+    "source": "Footer_Link_Obscure",
+    "target": "Legal_Page",
+    "weight": 4
+  },
+  {
+    "source": "Legal_Page",
+    "target": "Footer_Link_Obscure",
+    "weight": 3
+  },
+  {
+    "source": "Homepage",
+    "target": "Search_Broken",
+    "weight": 50
+  },
+  {
+    "source": "Search_Broken",
+    "target": "Homepage",
+    "weight": 45
+  },
+  {
+    "source": "Menu_Level1",
+    "target": "Contact_Buried",
+    "weight": 5
+  },
+  {
+    "source": "Contact_Buried",
+    "target": "Menu_Level1",
+    "weight": 4
+  },
+  {
+    "source": "Homepage",
+    "target": "About_Page_Isolated",
+    "weight": 8
+  },
+  {
+    "source": "About_Page_Isolated",
+    "target": "Homepage",
+    "weight": 7
+  }
+]
+

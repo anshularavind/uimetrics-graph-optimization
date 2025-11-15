@@ -1,0 +1,19 @@
+{
+  "graph_info": {
+    "num_nodes": 3,
+    "num_edges": 4,
+    "total_weight": 12
+  },
+  "average_shortest_path_length": 0.6666666666666666,
+  "average_clustering_coefficient": 0.6666666666666666,
+  "closeness_centrality": {
+    "body:nth-child=\"2\"nth-of-type=\"1\"": 0.6666666666666666,
+    "body:attr__style=\"\"nth-child=\"2\"nth-of-type=\"1\"": 0.5,
+    "\"nth-child=\"2\"nth-of-type=\"1\"": 0.0
+  },
+  "clustering_coefficient": {
+    "body:nth-child=\"2\"nth-of-type=\"1\"": 1.0,
+    "body:attr__style=\"\"nth-child=\"2\"nth-of-type=\"1\"": 1.0,
+    "\"nth-child=\"2\"nth-of-type=\"1\"": 0.0
+  }
+}
