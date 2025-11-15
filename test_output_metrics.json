@@ -1,0 +1,31 @@
+{
+  "graph_info": {
+    "num_nodes": 9,
+    "num_edges": 9,
+    "total_weight": 10
+  },
+  "average_shortest_path_length": 0.1111111111111111,
+  "average_clustering_coefficient": 0.024691358024691357,
+  "closeness_centrality": {
+    "submit": 0.0,
+    "ask": 0.0,
+    "jobs": 0.0,
+    "login": 0.0,
+    "new": 0.0,
+    "comments": 0.0,
+    "show": 0.0,
+    "Hacker News": 1.0,
+    "past": 0.0
+  },
+  "clustering_coefficient": {
+    "submit": 0.0,
+    "ask": 0.0,
+    "jobs": 0.0,
+    "login": 0.0,
+    "new": 0.0,
+    "comments": 0.0,
+    "show": 0.0,
+    "Hacker News": 0.2222222222222222,
+    "past": 0.0
+  }
+}

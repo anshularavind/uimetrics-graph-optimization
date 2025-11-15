@@ -1,0 +1,47 @@
+[
+  {
+    "source": "Hacker News",
+    "target": "Hacker News",
+    "weight": 2
+  },
+  {
+    "source": "Hacker News",
+    "target": "new",
+    "weight": 1
+  },
+  {
+    "source": "Hacker News",
+    "target": "past",
+    "weight": 1
+  },
+  {
+    "source": "Hacker News",
+    "target": "comments",
+    "weight": 1
+  },
+  {
+    "source": "Hacker News",
+    "target": "ask",
+    "weight": 1
+  },
+  {
+    "source": "Hacker News",
+    "target": "show",
+    "weight": 1
+  },
+  {
+    "source": "Hacker News",
+    "target": "jobs",
+    "weight": 1
+  },
+  {
+    "source": "Hacker News",
+    "target": "submit",
+    "weight": 1
+  },
+  {
+    "source": "Hacker News",
+    "target": "login",
+    "weight": 1
+  }
+]
